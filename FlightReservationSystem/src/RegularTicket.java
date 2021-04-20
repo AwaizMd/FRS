@@ -1,5 +1,9 @@
 public class RegularTicket {
-    public  String specialServices;
+    private  String specialServices;
+
+    public RegularTicket(String specialServices,String pnr, String from, String to, String departureDateTime, String arraivalDateTime, String seatNo, Flight flight, Passenger passenger, float price, boolean cancelled) {
+        this.specialServices=specialServices;
+    }
 
     public  String getSpecialServices(){
         return  this.specialServices;
