@@ -6,6 +6,8 @@ public class Main {
 //        System.out.println(flight.checkAvailability());
 //        System.out.println(flight.getBookedSeats());
 
+        System.out.println(printTicketDetails(ticket1.pnr));
+        System.out.println(printTicketDetails(ticket2.pnr));
 
 
 
