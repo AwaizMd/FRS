@@ -1,9 +1,10 @@
-public class Ticket {
+public abstract class Ticket {
     private String pnr,from,to,departureDateTime,arraivalDateTime,seatNo;
     private Flight flight;
     private  Passenger passenger;
     private float price;
     private boolean cancelled;
+
 
 
 

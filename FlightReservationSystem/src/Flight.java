@@ -10,6 +10,7 @@ public class Flight {
         this.airline = airline;
         this.capacity = capacity;
         this.bookedSeats = bookedSeats;
+
     }
 
     //copy constructor
@@ -85,4 +86,6 @@ public class Flight {
     public void incrementBookingCounter(){
         counter++;
     }
+
+
 }
