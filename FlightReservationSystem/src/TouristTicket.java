@@ -11,6 +11,10 @@ public class TouristTicket extends Ticket{
 
     }
 
+    public TouristTicket(){
+
+    }
+
     //getters and setters
     public void setHotelAddress(String hotelAddress) {
         this.hotelAddress = hotelAddress;

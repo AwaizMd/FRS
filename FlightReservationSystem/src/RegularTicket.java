@@ -6,6 +6,12 @@ public class RegularTicket extends Ticket{
         this.specialServices=specialServices;
     }
 
+    public RegularTicket(){
+
+    }
+
+
+
     public  String getSpecialServices(){
         return  this.specialServices;
     }

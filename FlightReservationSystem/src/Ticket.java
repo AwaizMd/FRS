@@ -23,6 +23,10 @@ public abstract class Ticket {
         this.cancelled = cancelled;
     }
 
+    public Ticket(){
+
+    }
+
 
     //getters and setters
     public Flight getFlight(){   //aggregation rel
@@ -107,13 +111,14 @@ public abstract class Ticket {
 
     //methods
 
-//    public String checkStatus(){
-//
-//    }
-//
-//    public int getFlightDuration(){
-//
-//    }
+    public String checkStatus(){
+        if(cancelled==false){
+            return "Ticket Booked";
+        }
+        else {
+            return "Ticket cancelled";
+        }
+    }
 
     public void cancel(boolean cancelled){
         this.cancelled=cancelled;
